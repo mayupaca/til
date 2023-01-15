@@ -28,7 +28,28 @@ print(random_float_5)
 [List Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
 
 ```python
+# Pythonはリストを演算子で繋げられる
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+list1 += list2
+print(list1) # [1, 2, 3, 4, 5, 6]
+```
+```javascript
+// JavaScript
+let list1 = [1, 2, 3];
+let list2 = [4, 5, 6];
+list1 = list1.concat(list2);
+console.log(list1); // [1, 2, 3, 4, 5, 6]
 
+or
+
+let list1 = [1, 2, 3];
+let list2 = [4, 5, 6];
+list1 = [...list1, ...list2];
+console.log(list1); // [1, 2, 3, 4, 5, 6]
+```
+
+```python
 # inputで入力した文字列を指定した文字列で区切ってリストとして返すメソッド
 string = "apple, peach, lemon, orange, banana"
 new_string = string.split(", ") #", "で区切ったリストになる
