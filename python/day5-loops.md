@@ -86,10 +86,19 @@ print(list1) # [1, 2, 3, 4, 5, 6]
 random.shuffleはPythonの標準ライブラリのrandomモジュールにある関数。
 この関数はリスト内の要素をランダムな順序で並べ替えます。
 ```python
+# 1.
 my_list = [1, 2, 3, 4, 5]
 random.shuffle(my_list)
 print(my_list)
+
+# 2.
+fruits = ["apple", "orange", "strowberry", "watermelon", "banana"]
+random.shuffle(fruits)
+print(fruits)
+# ["watermelon", "banana", "orange", "strowberry", "apple"]
+
 ```
+
 
 
 
