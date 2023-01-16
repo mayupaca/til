@@ -67,6 +67,7 @@ for (let number = 1; number <= 100; number++) {
 list1 = [1, 2, 3]
 list1.append(4)
 print(list1) # [1, 2, 3, 4]
+# Javascript.push的な関数
 ```
 - +=は、オブジェクトの末尾に新しいオブジェクトを結合するために使う。文字列だと文字を連結する。
 ```python
