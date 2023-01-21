@@ -105,24 +105,5 @@ while input("Do you want to play a game of Blackjack? Tyle 'y' or 'n': ") == 'y'
   play_game()
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
  ```   
   
