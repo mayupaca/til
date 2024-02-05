@@ -16,20 +16,20 @@ with open('sample.txt','r') as readfile:
     if line in lookup:
       print(line, 'is in the file!')
 ```
-output
-  Jane Do is in the file!
-  Cleo Patra is in the file!
+> ----- output -----  
+> Jane Do is in the file!  
+> Cleo Patra is in the file!  
   
 ```python
 fileA = open('sample.txt', 'r')
 print(fileA.read())
 fileA.close()
 ```
-output
-  Jane Do
-  John Smith
-  Cleo Patra
-  Nefer Titi
+> ----- output -----  
+> Jane Do  
+> John Smith  
+> Cleo Patra  
+> Nefer Titi  
 
 ```python
 listA = []
@@ -39,8 +39,8 @@ with open('sample.txt', 'r') as readfile: # with method auto close
 
 print(listA)
 ```
-output
-  ['Jane Do\n', 'John Smith\n', 'Cleo Patra\n', 'Nefer Titi']
+> ----- output -----  
+> ['Jane Do\n', 'John Smith\n', 'Cleo Patra\n', 'Nefer Titi']
 
 
 
