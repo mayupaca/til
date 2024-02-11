@@ -2,9 +2,7 @@
 import tkinter
 from tkinter import ttk
 from tkinter import messagebox
-```
 
-```python
 def save():
 # .get()メソッドで入力された値を取得
     petname = petnametxt.get()
@@ -23,9 +21,7 @@ def save():
                 f'Pet Age: {petage}\n'
                 f'Pet Type: {pettype}\n')
         print('Saved!')
-```
 
-```python
 window = tkinter.Tk()
 window.title('Pets')
 frame = tkinter.Frame(window)
