@@ -1,9 +1,9 @@
 ```python
-
 import tkinter
 from tkinter import ttk
 from tkinter import messagebox
 ```
+
 ```python
 def save():
 # .get()メソッドで入力された値を取得
@@ -24,6 +24,7 @@ def save():
                 f'Pet Type: {pettype}\n')
         print('Saved!')
 ```
+
 ```python
 window = tkinter.Tk()
 window.title('Pets')
@@ -69,5 +70,4 @@ savebutton=tkinter.Button(frame, text='Save', command=save)
 savebutton.grid(row=2,column=0)
 
 window.mainloop()
-
 ```
