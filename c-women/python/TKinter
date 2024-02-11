@@ -3,7 +3,8 @@
 import tkinter
 from tkinter import ttk
 from tkinter import messagebox
-
+```
+```python
 def save():
 # .get()メソッドで入力された値を取得
     petname = petnametxt.get()
@@ -22,7 +23,8 @@ def save():
                 f'Pet Age: {petage}\n'
                 f'Pet Type: {pettype}\n')
         print('Saved!')
-
+```
+```python
 window = tkinter.Tk()
 window.title('Pets')
 frame = tkinter.Frame(window)
@@ -48,7 +50,6 @@ petagelabel.grid(row=0,column=2, padx=10, pady=10)
 petagebox=tkinter.Spinbox(petinfoframe, from_= 1, to= 'infinity')
 petagebox.grid(row=0,column=3)
 
-
 # ---------- Owner Frame -------------------------------------------------
 ownerinfoframe=tkinter.LabelFrame(frame, text='Owner Information')
 ownerinfoframe.grid(row=1,column=0)
@@ -63,11 +64,9 @@ ownerlastnamelabel.grid(row=0,column=2, padx=10, pady=10)
 owlnametxt=tkinter. Entry(ownerinfoframe)
 owlnametxt.grid(row=0,column=3, padx=10, pady=10)
 
-
 # ---------- Adding button ------------------------------------------------
 savebutton=tkinter.Button(frame, text='Save', command=save)
 savebutton.grid(row=2,column=0)
-
 
 window.mainloop()
 
